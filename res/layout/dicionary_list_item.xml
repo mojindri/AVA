@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/ll_main_dicionary_list_item"
+    android:background="@drawable/list_dic_selector"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_item_word"
+        android:padding="5dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textAppearance="?android:attr/textAppearanceListItem" />
+ 
+</LinearLayout>
